@@ -13,7 +13,7 @@ constructor(interval?: number)
 }
 ```
 ### Keyboard Events
-In the initialize() method, keyboard events are set up to control the direction of the snake. When a key is pressed, the direction of the snake is changed unless it is the opposite direction to the current one (to prevent the snake from moving backwards onto itself).
+In the `initialize()` method, keyboard events are set up to control the direction of the snake. When a key is pressed, the direction of the snake is changed unless it is the opposite direction to the current one (to prevent the snake from moving backwards onto itself).
 
 ```typescript
 process.stdin.on('keypress', (str, key) =>
@@ -53,7 +53,7 @@ draw()
 ```
 
 ### Starting the Game
-Finally, an instance of the Snake class is created and the initialize() method is called to start the game.
+Finally, an instance of the `Snake` class is created and the `initialize()` method is called to start the game.
 
 ```typescript
 const snake = new Snake(1000)
