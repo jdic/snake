@@ -60,4 +60,4 @@ const snake = new Snake(1000)
 snake.initialize()
 ```
 
-ready, did you expect more, no, this is it. 🗿
+ready, did you expect more? `no, that's all.` 🗿
